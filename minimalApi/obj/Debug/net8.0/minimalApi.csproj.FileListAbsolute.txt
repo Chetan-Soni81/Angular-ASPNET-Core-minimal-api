@@ -162,3 +162,4 @@ C:\Users\Chetan Soni\Desktop\Coding\Angular-ASPNET-Core-minimal-api\minimalApi\o
 C:\Users\Chetan Soni\Desktop\Coding\Angular-ASPNET-Core-minimal-api\minimalApi\obj\Debug\net8.0\minimalApi.pdb
 C:\Users\Chetan Soni\Desktop\Coding\Angular-ASPNET-Core-minimal-api\minimalApi\obj\Debug\net8.0\minimalApi.genruntimeconfig.cache
 C:\Users\Chetan Soni\Desktop\Coding\Angular-ASPNET-Core-minimal-api\minimalApi\obj\Debug\net8.0\ref\minimalApi.dll
+C:\Users\Chetan Soni\Desktop\Coding\Angular-ASPNET-Core-minimal-api\minimalApi\bin\Debug\net8.0\minimalApi.staticwebassets.runtime.json

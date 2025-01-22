@@ -6,19 +6,19 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+//app.MapGet("/", () => "Hello World!");
 
-app.MapGet("/todo", async (AppDbContext db) => {
+app.MapGet("/api/todo", async (AppDbContext db) => {
     return await db.Todos.ToListAsync();
 });
 
-app.MapGet("/todo/{id}", async (int id, AppDbContext db) => {
+app.MapGet("/api/todo/{id}", async (int id, AppDbContext db) => {
     var todo = await db.Todos.FindAsync(id);
 
     return todo is not null ? Results.Ok(todo) : Results.NotFound();
 });
 
-app.MapPost("/todo", async (TodoItem todoItem, AppDbContext db) => {
+app.MapPost("/api/todo", async (TodoItem todoItem, AppDbContext db) => {
     db.Todos.Add(todoItem);
 
     await db.SaveChangesAsync();
@@ -26,7 +26,7 @@ app.MapPost("/todo", async (TodoItem todoItem, AppDbContext db) => {
     return Results.Created($"/todo/{todoItem.Id}", todoItem);
 });
 
-app.MapPut("/todo/{id}", async (int id, TodoItem todoItem, AppDbContext db) => {
+app.MapPut("/api/todo/{id}", async (int id, TodoItem todoItem, AppDbContext db) => {
     var item = await db.Todos.FindAsync(id);
 
     if(item is null) {
@@ -40,7 +40,7 @@ app.MapPut("/todo/{id}", async (int id, TodoItem todoItem, AppDbContext db) => {
     return Results.NoContent();
 });
 
-app.MapDelete("/todo/{id}", async ( int id, AppDbContext db) => {
+app.MapDelete("/api/todo/{id}", async ( int id, AppDbContext db) => {
     var item = await db.Todos.FindAsync(id);
 
     if (item is null) {
@@ -52,5 +52,9 @@ app.MapDelete("/todo/{id}", async ( int id, AppDbContext db) => {
 
     return Results.NoContent();
 });
+
+app.UseStaticFiles();
+
+app.MapFallbackToFile("/index.html");
 
 app.Run();

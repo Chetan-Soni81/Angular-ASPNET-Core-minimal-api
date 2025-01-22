@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\main.d06b7053fff299d0.js",
+      "PackagePath": "staticwebassets\\main.d06b7053fff299d0.js"
+    },
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\polyfills.0f67b8a372699d19.js",
+      "PackagePath": "staticwebassets\\polyfills.0f67b8a372699d19.js"
+    },
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\runtime.5f211e63ac48bd49.js",
+      "PackagePath": "staticwebassets\\runtime.5f211e63ac48bd49.js"
+    },
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\scripts.dcc45d84c84ddb6d.js",
+      "PackagePath": "staticwebassets\\scripts.dcc45d84c84ddb6d.js"
+    },
+    {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\styles.d67d18dc2ee2d28e.css",
+      "PackagePath": "staticwebassets\\styles.d67d18dc2ee2d28e.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.minimalApi.props",
+      "PackagePath": "build\\minimalApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.minimalApi.props",
+      "PackagePath": "buildMultiTargeting\\minimalApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.minimalApi.props",
+      "PackagePath": "buildTransitive\\minimalApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.minimalApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
