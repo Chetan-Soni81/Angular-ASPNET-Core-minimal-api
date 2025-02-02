@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
     },
     {
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\assets\\todo-items.json",
+      "PackagePath": "staticwebassets\\assets\\todo-items.json"
+    },
+    {
       "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -13,8 +17,8 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\main.d06b7053fff299d0.js",
-      "PackagePath": "staticwebassets\\main.d06b7053fff299d0.js"
+      "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\main.df53ce592fce37c5.js",
+      "PackagePath": "staticwebassets\\main.df53ce592fce37c5.js"
     },
     {
       "Id": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\polyfills.0f67b8a372699d19.js",
