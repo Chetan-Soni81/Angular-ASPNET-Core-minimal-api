@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JHt7P7nbiPgHNqb0k6L0nMuQnFZAmoctN4hW3564pCA=",
+  "Hash": "FM+WIFMhL6VTdtjiDL7jNYexhk2BmWp2tC6eUzgIyec=",
   "Source": "minimalApi",
   "BasePath": "_content/minimalApi",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\main.df53ce592fce37c5.js",
+      "Identity": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\main.f097638c0f6b181b.js",
       "SourceId": "minimalApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\",
       "BasePath": "_content/minimalApi",
-      "RelativePath": "main.df53ce592fce37c5.js",
+      "RelativePath": "main.f097638c0f6b181b.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.df53ce592fce37c5.js"
+      "OriginalItemSpec": "wwwroot\\main.f097638c0f6b181b.js"
     },
     {
       "Identity": "C:\\Users\\Chetan Soni\\Desktop\\Coding\\Angular-ASPNET-Core-minimal-api\\minimalApi\\wwwroot\\polyfills.0f67b8a372699d19.js",
